@@ -1,0 +1,62 @@
+html {
+      font-size: 50px;
+      height: 100vh;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+body {
+      padding: 20px;
+      background-image: linear-gradient(rgb(255, 198, 251), white);
+      text-align: center;
+}
+
+h1 {
+      color: black;
+      text-align: center;
+      letter-spacing: 5px;
+}
+
+#emoji-container {
+      margin: 50px;
+      text-align: center;
+}
+
+#emoji-container span {
+      margin: 20px;
+      font-size: 70px;
+}
+
+input {
+      margin: 0 auto;
+      padding: 10px;
+      display: block;
+      border: none;
+      text-align: center;
+      border-radius: 20px;
+      background-color: white;
+      height: 20px;
+}
+
+button {
+      border: none;
+      background-color: white;
+      border-radius: 20px;
+      padding: 5px 20px;
+      margin: 0px 5px;
+}
+
+.buttons-wrapper {
+      display: flex;
+      justify-content: center;
+      margin: 20px;
+}
+
+#push-btn, #unshift-btn {
+      background-color: rgb(170, 236, 170);
+      cursor: pointer;
+}
+
+#pop-btn, #shift-btn {
+      background-color: rgb(253, 143, 143);
+      cursor: pointer;
+}
